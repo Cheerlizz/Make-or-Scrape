@@ -1,3 +1,5 @@
+
+
 const https = require('https');
 const JSSoup = require('jssoup').default;
 const fs = require('fs');
@@ -12,6 +14,11 @@ to scrape another site you should go and inspect the site in the browser first, 
 */
 
 //returns one large string of all text
+
+
+
+
+
 function getParagraphText(soupTag){
     let paragraphs = soupTag.findAll('p');
     let text = {
